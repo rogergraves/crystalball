@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface THViewController : UIViewController
+- (IBAction)buttonPressed;
+
+@property (strong, nonatomic) IBOutlet UILabel *label;
+@property (strong, nonatomic) NSArray *predictions;
 
 @end
